@@ -1,0 +1,90 @@
+
+body {
+    background-color: lightgray;
+  }
+  
+  .header .name {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px;
+  color: black;
+  }
+  
+  .nav {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 6px;
+    right: 20px;
+  } 
+  
+  .content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  }
+  
+  .about-me {
+  display: inline-block;
+  padding: 20px;
+  }
+  
+  .my-work {
+  display: inline-block;
+  padding: 20px;
+  }
+  
+  .ham{
+    font-size: 25px;
+  }
+  
+  .hmw {
+    padding: 10px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .avatar {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 6px;
+    left: 100px;
+    height: 100px;
+    width: 100px;
+    border-radius: 25px;
+  }
+  
+  .cbus {
+    height: 400px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+    border-width: 10px;
+  }
+  
+  .ShowSearch {
+    height: 200px;
+    width: 400px;
+  }
+  
+  .folder {
+    height: 200px;
+    width: 200px;
+  }
+  
+  .footer {
+    padding: 30px;
+    text-align: center;
+    background-color: gray;
+  }
+  
+  .hcm {
+    font-size: 25px;
+  }
